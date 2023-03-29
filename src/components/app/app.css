@@ -1,30 +1,19 @@
-.app {
-  margin: 0 auto;
-  max-width: 1000px;
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #aaa;
+  background: url("../../img/bckgrnd.jpg") center / cover no-repeat;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
 }
 
-/* .infro-wrapper{
-  display: flex;
-    justify-content:center;
-  align-items: center;
-  margin: 0 auto;
-  width: 30vw;
-  height: 70vh;
-  padding: 20px;
-  background-color: red;
-  border: 2px solid black;
-} */
-
-.infro-wrapper {
-  border: 1px solid black;
-  padding: 20px;
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1,
+h2 {
+  margin: 0;
 }
+

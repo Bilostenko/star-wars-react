@@ -1,17 +1,16 @@
+import React from 'react';
+import CardsList from '../cards/cards-list';
 import './app.css';
 import Title from '../title/title';
 
 
-function App () {
+const App = () => {
   return (
-    <div className="app">
-      <Title />
-      <div className="infro-wrapper">
-        
-      </div>
-  </div>
-  )
-
-}
+    <>
+      <Title></Title>
+      <CardsList></CardsList>
+    </>
+  );
+};
 
 export default App;
