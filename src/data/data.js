@@ -7,7 +7,7 @@ const data = [{
     "eye_color": "blue",
     "birth_year": "19BBY",
     "gender": "male",
-    "homeworld": "https://swapi.dev/api/planets/1/",
+    "url": "https://swapi.dev/api/planets/1/",
     "image": "https://starwars-visualguide.com/assets/img/characters/1.jpg"
 },
 {
@@ -19,7 +19,7 @@ const data = [{
     "eye_color": "yellow",
     "birth_year": "112BBY",
     "gender": "n/a",
-    "homeworld": "https://swapi.dev/api/planets/1/",
+    "url": "https://swapi.dev/api/planets/1/",
     "image": "https://starwars-visualguide.com/assets/img/characters/2.jpg"
 },
 {

@@ -1,5 +1,5 @@
 import React from "react";
-/* import "./card-body.css"; */
+import "./card-body.css";
 
 const CardBody = ({ elemnts }) => {
   let {
@@ -15,7 +15,7 @@ const CardBody = ({ elemnts }) => {
   } = elemnts;
   return (
     <div className="card-body">
-      <span>{`image: ${image}`}</span>
+      <img className="image" src={image} alt='img' />
       <span>{`height: ${height}`}</span>
       <span>{`mass: ${mass}`}</span>
       <span>{`skin_color: ${skin_color}`}</span>
@@ -23,7 +23,7 @@ const CardBody = ({ elemnts }) => {
       <span>{`eye_color: ${eye_color}`}</span>
       <span>{`birth_year: ${birth_year}`}</span>
       <span>{`gender: ${gender}`}</span>
-      <a href="`${url}`" target={"_blank"}>{`url: ${url}`}</a>
+      <a className="btn" href="`${url}`" target={"_blank"}>More info...</a>
     </div>
   );
 };

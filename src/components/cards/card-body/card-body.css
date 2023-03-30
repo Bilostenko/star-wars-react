@@ -1,0 +1,41 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+  margin-top: 24px;
+  gap: 8px;
+}
+
+.image{
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
+}
+
+span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fdd835;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+  color: #000000;
+}
